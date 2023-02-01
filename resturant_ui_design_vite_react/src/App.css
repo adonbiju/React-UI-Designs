@@ -52,3 +52,26 @@ a {
             transform: translateY(0);
   }
 }
+
+@media screen and (min-width: 2000px) {
+  .p__opensans {
+    font-size: 30px;
+    line-height: 50px;
+  }
+}
+
+
+
+@media screen and (max-width: 650px) {
+
+  .p__opensans {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .p__opensans {
+    font-size: 12px;
+  }
+
+}
