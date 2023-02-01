@@ -2,4 +2,9 @@
 :root {
   --font-base: 'Cormorant Upright', serif;
   --font-alt: 'Open Sans', sans-serif;
+  --color-black: #0C0C0C;
+  --color-white: #FFFFFF;
+  --color-grey: #545454;
+  --color-golden: #DCCA87;
+  --color-grey: #AAAAAA;
 }
