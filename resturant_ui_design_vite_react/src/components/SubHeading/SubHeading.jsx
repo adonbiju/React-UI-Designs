@@ -1,5 +1,4 @@
 import React from 'react'
-import './SubHeading.css'
 import { spoon } from '../../constants/images'
 const SubHeading = ({title}) => {
   return (
