@@ -38,6 +38,13 @@ a {
   justify-content: center;
   align-items: center;
 }
+.app__bg {
+  background: url('./assets/bg.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: repeat;
+  background-attachment: fixed;
+}
 
 .app__wrapper {
   display: flex;
@@ -66,6 +73,8 @@ a {
   margin-left: 2rem;
 }
 
+
+
 .app__wrapper_img img {
   width: 80%;
 }
@@ -74,6 +83,14 @@ a {
   width: 45px;
 }
 
+.headtext__cormorant {
+  font-family: var(--font-base);
+  color: var(--color-golden);
+  font-size: 64px;
+  line-height: 83.2px;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+}
 .custom__button {
   background-color: var(--color-crimson);
     color: var(--color-black);
@@ -125,6 +142,10 @@ a {
     font-size: 37px;
     line-height: 67px;
   }
+  .headtext__cormorant {
+    font-size: 150px;
+    line-height: 210px;
+  }
 
   .spoon__img {
     width: 80px;
@@ -169,5 +190,9 @@ a {
   }
   .p__cormorant {
     font-size: 19px;
+  }
+  .headtext__cormorant {
+    font-size: 45px;
+    line-height: 70px;
   }
 }
