@@ -7,7 +7,7 @@ const Chef = () => {
   return (
     <div className='app__bg app__wrapper section__padding'>
     <div className="app__wrapper_img">
-      <img src={chef} alt="cheg image" />
+      <img src={chef} alt="chef image" />
     </div>
     <div className="app__wrapper_info">
       <SubHeading title="Chef’s Word" />
