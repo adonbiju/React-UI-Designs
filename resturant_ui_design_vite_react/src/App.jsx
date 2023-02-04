@@ -1,6 +1,6 @@
 import './App.css'
 import { Navbar } from './components'
-import { Header,Chef,FindUs ,AboutUs, Intro,SpecialMenu,Laurels} from './container'
+import { Header,Chef,FindUs ,AboutUs, Intro,SpecialMenu,Laurels ,Gallery} from './container'
 function App() {
   return (
     <div className="App">
@@ -11,6 +11,7 @@ function App() {
       <Chef/>
       <Intro />
       <Laurels />
+      <Gallery />
       <FindUs />
     </div>
   )
