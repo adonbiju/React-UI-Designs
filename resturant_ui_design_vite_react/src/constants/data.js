@@ -1,3 +1,4 @@
+import { award02 ,award01,award03,award05 } from "./images";
 const wines = [
   {
     title: 'Chapel Hill Shiraz',
@@ -54,4 +55,27 @@ const cocktails = [
   },
 ];
 
-export default { wines, cocktails};
+const awards = [
+    {
+      imgUrl:award02,
+      title: 'Bib Gourmond',
+      subtitle: 'Lorem ipsum dolor sit amet, consectetur.',
+    },
+    {
+      imgUrl: award01,
+      title: 'Rising Star',
+      subtitle: 'Lorem ipsum dolor sit amet, consectetur.',
+    },
+    {
+      imgUrl: award05,
+      title: 'AA Hospitality',
+      subtitle: 'Lorem ipsum dolor sit amet, consectetur.',
+    },
+    {
+      imgUrl: award03,
+      title: 'Outstanding Chef',
+      subtitle: 'Lorem ipsum dolor sit amet, consectetur.',
+    },
+  ];
+
+export default { wines, cocktails, awards};

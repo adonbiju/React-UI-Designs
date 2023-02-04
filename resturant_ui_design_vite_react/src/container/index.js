@@ -4,11 +4,13 @@ import FindUs from "./FindUs/FindUs";
 import AboutUs from "./AboutUs/AboutUs";
 import Intro from './Intro/Intro'
 import SpecialMenu from "./SpecialMenu/SpecialMenu";
+import Laurels from "./Laurels/Laurels";
 export {
     Header,
     Chef,
     FindUs,
     AboutUs,
     Intro,
-    SpecialMenu
+    SpecialMenu,
+    Laurels
   };
