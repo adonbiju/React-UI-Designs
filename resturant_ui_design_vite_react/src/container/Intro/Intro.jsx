@@ -6,7 +6,7 @@ import './Intro.css';
 const Intro = () => {
     const [playVideo, setPlayVideo] = React.useState(false);
     const vidRef = React.useRef();
-  return (
+    return (
     <div className="app__video">
       <video
         ref={vidRef}
