@@ -2,10 +2,12 @@ import React from 'react'
 import './Footer.css'
 import { spoon ,gericht} from '../../constants/images'
 import { FiFacebook, FiTwitter, FiInstagram } from 'react-icons/fi';
+
+
 const Footer = () => {
   return (
     <div className="app__footer section__padding" id="login">
-
+  
     <div className="app__footer-links">
       <div className="app__footer-links_contact">
         <h1 className="app__footer-headtext">Contact Us</h1>

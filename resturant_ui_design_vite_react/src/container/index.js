@@ -6,6 +6,7 @@ import Intro from './Intro/Intro'
 import SpecialMenu from "./SpecialMenu/SpecialMenu";
 import Laurels from "./Laurels/Laurels";
 import Gallery from "./Gallery/Gallery";
+import Newsletter from "./Newsletter/Newsletter";
 import Footer from "./Footer/Footer";
 export {
     Header,
@@ -16,5 +17,6 @@ export {
     SpecialMenu,
     Laurels,
     Gallery,
+    Newsletter,
     Footer
   };
