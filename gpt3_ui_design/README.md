@@ -18,7 +18,14 @@ Install dependencies
   npm install
 ```
 
-Start the server
+Start the project
 
 ```bash
   npm  start
+```
+
+## Demo Video
+
+<div align="center">
+  <img alt="Demo Video" src="Demo/gpt3.gif"  />
+</div>
